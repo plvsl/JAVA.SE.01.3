@@ -39,6 +39,6 @@ public class Main {
     }
 
     private static boolean checkParameters(double a, double b, double h) {
-        return ((a > b) || ((b - a) < h) || (a == 0 && b == 0 && h == 0) || (h < 0));
+        return ((a > b) || ((b - a) < h) || (a == 0 && b == 0 && h == 0) || (h <= 0));
     }
 }
